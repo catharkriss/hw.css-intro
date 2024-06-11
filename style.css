@@ -1,0 +1,79 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ hr {
+    width: 69%;
+    text-align: center;
+    color: #828282;
+ }
+
+.nav-items{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24.51px;
+    text-align: center;
+}
+
+.nav-item-link {
+    color: #828282;
+    padding: 14px 16px;
+}
+
+li {
+    display: inline;
+}
+
+.nav-item-link-home {
+    color:#090909;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #515151;   
+}
+
+a:active {
+    color: #181818;
+}
+
+.hero-section {
+    padding-left: 235px;
+}
+
+.hero-heading {
+    font-weight: 700px;
+    font-size: 48px;
+    color: #070707;
+    line-height: 65.37px;
+}
+
+.hero-image {
+    width: 970px;
+    height: 387px;
+}
+
+.about-me-heading {
+    font-size: 34px;
+    font-weight: 700px;
+    line-height: 46.3px;
+}
+
+.about-me-text {
+    font-size: 18px;
+    font-weight: 400px;
+    color:  #070707;
+    line-height: 24.51px;
+}
+
+.about-me-section {
+    text-align: center;
+    padding-top: 100px;
+}
