@@ -44,8 +44,12 @@ a:active {
     color: #181818;
 }
 
-.hero-section {
-    padding-left: 235px;
+
+.container-hero, 
+.container-nav {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .hero-heading {
@@ -55,9 +59,10 @@ a:active {
     line-height: 65.37px;
 }
 
-.hero-image {
-    width: 970px;
-    height: 387px;
+img {
+    width: 100%;
+    max-width: 970px;
+    height: auto;
 }
 
 .about-me-heading {
@@ -73,7 +78,10 @@ a:active {
     line-height: 24.51px;
 }
 
-.about-me-section {
+.container-about-me {
     text-align: center;
     padding-top: 100px;
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
 }
